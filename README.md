@@ -23,17 +23,17 @@ Adicione a seguinte linha ao arquivo zabbix_agentd.conf:
 ![Captura de Tela 2024-08-07 às 10 55 05](https://github.com/user-attachments/assets/1f5f149e-7452-4336-b0b3-f061569a3ade)
 
 
-#Vantagens do UserParameter
+# Vantagens do UserParameter
 Personalização: Permite a coleta de métricas específicas que não estão disponíveis por padrão.
 Flexibilidade: Você pode usar qualquer comando ou script que desejar, desde que retorne um valor que o Zabbix possa processar.
 Monitoramento de Aplicações Customizadas: Ideal para aplicações personalizadas ou serviços que não têm suporte nativo no Zabbix.
 Considerações e Boas Práticas
 
-#Segurança: Certifique-se de que os comandos executados não introduzam vulnerabilidades de segurança. Evite comandos que possam executar scripts ou comandos externos não confiáveis.
+# Segurança: Certifique-se de que os comandos executados não introduzam vulnerabilidades de segurança. Evite comandos que possam executar scripts ou comandos externos não confiáveis.
 Desempenho: Comandos complexos ou que exigem muita CPU/memória podem impactar o desempenho do agente Zabbix. Teste e ajuste conforme necessário.
 Formato de Dados: Garanta que o comando retorne dados no formato esperado (por exemplo, numérico, texto). Isso é crucial para que o Zabbix possa processar e interpretar corretamente os resultados.
 
-#Conclusão
+# Conclusão
 O UserParameter no Zabbix é uma ferramenta poderosa para adaptar o monitoramento às necessidades específicas do seu ambiente. Ele permite que você personalize a coleta de dados e expanda as capacidades do Zabbix além do que é oferecido pelas métricas padrão. Com a configuração adequada, UserParameter pode ser uma adição valiosa à sua estratégia de monitoramento, proporcionando visibilidade e controle adicionais sobre sua infraestrutura e aplicações.
 
 
