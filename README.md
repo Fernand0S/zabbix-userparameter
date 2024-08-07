@@ -16,3 +16,6 @@ UserParameter=count_connections, ps -aux | grep 'php' | wc -l
 
 #Verificar o pool de conexões do Zabbix
 UserParameter=pool_connections_zabbix, ps -aux | grep 'zabbix' | wc -l 
+
+#Verificar o pool de conexões do Mysql
+UserParameter=check_connections_mysql, netstat -an | grep 3306 | wc -l 
