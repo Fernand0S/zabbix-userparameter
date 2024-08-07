@@ -1,4 +1,4 @@
-# Zabbix Userparameter
+## Zabbix Userparameter
 
 O Que é o UserParameter no Zabbix?
 No Zabbix, um sistema de monitoramento e gerenciamento de infraestrutura, o UserParameter é uma funcionalidade que permite aos usuários criar parâmetros personalizados para coleta de dados. Ele permite que você defina suas próprias checagens e métricas que não são cobertas pelos itens padrão do Zabbix. Isso é especialmente útil para monitorar aspectos específicos do sistema ou aplicativos que não possuem suporte nativo.
@@ -29,8 +29,11 @@ Flexibilidade: Você pode usar qualquer comando ou script que desejar, desde que
 Monitoramento de Aplicações Customizadas: Ideal para aplicações personalizadas ou serviços que não têm suporte nativo no Zabbix.
 Considerações e Boas Práticas
 
-## Segurança: Certifique-se de que os comandos executados não introduzam vulnerabilidades de segurança. Evite comandos que possam executar scripts ou comandos externos não confiáveis.
-Desempenho: Comandos complexos ou que exigem muita CPU/memória podem impactar o desempenho do agente Zabbix. Teste e ajuste conforme necessário.
+## Segurança: 
+Certifique-se de que os comandos executados não introduzam vulnerabilidades de segurança. Evite comandos que possam executar scripts ou comandos externos não confiáveis.
+
+## Desempenho: 
+Comandos complexos ou que exigem muita CPU/memória podem impactar o desempenho do agente Zabbix. Teste e ajuste conforme necessário.
 Formato de Dados: Garanta que o comando retorne dados no formato esperado (por exemplo, numérico, texto). Isso é crucial para que o Zabbix possa processar e interpretar corretamente os resultados.
 
 ## Conclusão
